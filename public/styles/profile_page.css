@@ -1,0 +1,76 @@
+html{
+	overflow: auto;
+}
+.maindiv{
+	min-width: 100%;
+	background-color: #fbfefe;
+}
+.left_add_div{
+	min-width: 3%;
+	max-width: 3%;
+	height: 10px;
+	float: left;
+	background-color: white;
+}
+.middle_main_div{
+	min-width: 85%;
+	max-width: 85%;
+	height: 100%;
+	margin-left: 10px;
+	float: left;
+	
+}
+.right_add_div{
+	min-width: 8%;
+	max-width: 8%;
+	position: fixed;
+	margin-top: 2vw;
+	right: 0;
+	background-color: #758a81;
+	height: 35vw;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+	
+}
+.banner_div{
+	min-width: 100%;
+	max-width: 100%;
+	height: 16vw;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 0px solid #d6d6d6;
+	box-shadow: 0 0 15px 1px #d6d6d6;
+}
+
+.options_tab_div{
+	width: 100%;
+	height: 3.5vw;
+	margin-top: 15px;
+	box-shadow: 0 0 15px 1px #d6d6d6;
+}
+.prof_pic{
+	height: 100%;
+	width: 20%;
+	margin-left: 5px;
+	float: left;
+}
+.short_info{
+	height: 100%;
+	width: 75%;
+	margin-left: 2%;
+	float: left;
+}
+.content_div{
+	width: 100%;
+	height: 100vw;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	box-shadow: 0 0 15px 1px #d6d6d6;
+}
+.footer{
+	width: 100%;
+	height: 100px;
+	float: right;
+}
+
+

@@ -1,0 +1,167 @@
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal.cart{
+	height: 50vw;
+}
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+    height: 100%;
+}
+
+.modal-content.cart{
+	margin: 5% auto;
+	width: 80%;
+	height: 80vw;
+	padding: 10px;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.submit_modal_btn{
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    border: 3px #f08080 solid;
+    border-radius: 5px;
+    color: white;
+    background-color: #f08080;
+}
+/* end modals*/
+
+
+.small_header{
+	font-size: 2.5vw;
+	height: 4vw;
+	width: 100%;
+	padding: 5px;
+	font-weight: normal;
+}
+.small_header.dark_grey{
+	color: white;
+	background-color: #86abc8;
+}
+.small_options_bar{
+	font-size: 2vw;
+	height: 3vw;
+	width: 100%;
+	padding: 5px;
+	font-weight: normal;
+}
+.small_options_bar.dark_grey{
+	color: white;
+	background-color:#86abc8;
+	padding-bottom: 5px;
+}
+
+.small_options_btn{
+	background-color: transparent;
+	color: white;
+	height: 100%;
+	margin-left: 1vw;
+	float: left;
+	font-size: 1.5vw;
+	font-weight: normal;
+	border: none;
+	outline: none;
+	padding: 0 1vw 0 0;
+}
+.small_dropdown_option{
+	background-color: #86abc8;
+	color: white;
+	outline: none;
+	float: left;
+	overflow: hidden;
+	
+}
+.small_book_view{
+	width: 24vw;
+	height: 10vw;
+	margin: 1vw 1vw 1vw 1vw;
+	float: left;
+	box-shadow: 0 0 5px 1px #d6d6d6;
+}
+.small_book_view-images{
+	width: 32%;height:100%;background-color: white;float: left;
+}
+.small_book_view-single_img{
+	border:none;width:100%;
+	height:100%;
+}
+.small_book_view-content_div{
+	width: 66%;height:100%;margin-left:2%;float: right;
+}
+.cart_div{
+	height: 33%;
+	width: 100%;
+	border-bottom: 1px white solid;
+}
+.cart_img{
+	width: 100%;
+	height:100%;
+	padding-top: 45%;
+	padding-left: 25%;
+	padding-right: 25%;
+	padding-bottom: 5%;
+}
+.cart_img.mid{
+	padding-top: 35%;
+	padding-bottom: 15%;
+}
+
+.cart_label{
+	width: 100%;
+	height:100%;
+	margin: 0px auto;
+	color: white;
+	font-size: 15px;
+}
+.subsec_label{
+			width: 100%;
+			float: left;
+			color: #0099cc;
+			font-weight: normal;
+			font-size: 2vw;			
+}
+
+.subsec_label.big{
+			width: 100%;
+			float: left;
+			background-color: #4d8379;
+			color: white;
+			font-weight: normal;
+			font-size: 2.5vw;			
+			padding: 10px;
+}
+.cash_memo_div{
+	width: 10vw;
+	height: 50vw;
+	background-color: #cde4e0;
+}
